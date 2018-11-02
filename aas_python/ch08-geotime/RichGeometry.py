@@ -1,3 +1,7 @@
+import pyspark.conf
+import pyspark.sql
+SparkConf = pyspark.conf.SparkConf
+SparkSession = pyspark.sql.SparkSession
 
 '''
  * A wrapper that provides convenience methods for using the spatial relations in the ESRI

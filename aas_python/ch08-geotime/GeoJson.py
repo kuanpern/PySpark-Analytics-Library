@@ -1,3 +1,7 @@
+import pyspark.conf
+import pyspark.sql
+SparkConf = pyspark.conf.SparkConf
+SparkSession = pyspark.sql.SparkSession
 
 class Feature(id: Option[JsValue],
 									 properties: Map[String, JsValue],

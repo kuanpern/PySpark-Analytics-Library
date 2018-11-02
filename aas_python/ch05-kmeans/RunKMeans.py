@@ -1,4 +1,7 @@
-
+import pyspark.conf
+import pyspark.sql
+SparkConf = pyspark.conf.SparkConf
+SparkSession = pyspark.sql.SparkSession
 
 class RunKMeans {
 

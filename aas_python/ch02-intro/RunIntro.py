@@ -1,3 +1,8 @@
+import pyspark.conf
+import pyspark.sql
+SparkConf = pyspark.conf.SparkConf
+SparkSession = pyspark.sql.SparkSession
+
 class MatchData:
 	id_1,
 	id_2,
