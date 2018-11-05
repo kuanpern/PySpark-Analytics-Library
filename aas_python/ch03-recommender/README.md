@@ -72,3 +72,5 @@
    72  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
    73  history 
    74  history  > README.md
+
+75 export PYSPARK_PYTHON=venv/bin/python
